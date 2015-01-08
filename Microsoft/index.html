@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="ms.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.carousel').carousel({
+            interval: 3000
+        })
+    });
+    </script>
+    <title>Microsoft - Official Home Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid" id="nav-container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="images/mslogo.png" id="logo" />
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-signin, #collapse-content">
+                    <img src="images/icon_menu_new.png" onmouseover="this.src='images/icon_menu_new_hover.png';" onmouseout="this.src='images/icon_menu_new.png';" />
+                </button>
+                <button type="button" class="navbar-toggle">
+                    <a href="#"><img src="images/icon_cart_reg.png" onmouseover="this.src='images/icon_cart_hover.png';" onmouseout="this.src='images/icon_cart_reg.png';" />
+                    </a>
+                </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search-content">
+                    <img src="images/search_icon.png" />
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="search-content">
+                <form class="navbar-form" role="search">
+                    <div class="input-group" id="searchbox">
+                        <input type="text" class="form-control search" placeholder="Search Microsoft.com" name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default search" type="submit">
+                                <img src="images/search.png" />
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse-content">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" id="store" data-toggle="dropdown" role="button" aria-expanded="false">Store <img src="images/dropdown_off.png" class="img-swap"/></a>
+                        <ul class="dropdown-menu" id="store-menu" role="menu">
+                            <!-- <li> content -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Explore <img src="images/dropdown_off.png" class="img-swap"/></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <!-- <li> content -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Devices <img src="images/dropdown_off.png" class="img-swap"/></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <!-- <li> content -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Software & Apps <img src="images/dropdown_off.png" class="img-swap"/></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <!-- <li> content -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Entertainment <img src="images/dropdown_off.png" class="img-swap"/></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <!-- <li> content -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support <img src="images/dropdown_off.png" class="img-swap"/></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <!-- <li> content -->
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse-signin">
+                <ul class="nav navbar-nav">
+                    <li id="shop-button">
+                        <a href="#"><img src="images/icon_cart_reg.png" onmouseover="this.src='images/icon_cart_hover.png';" onmouseout="this.src='images/icon_cart_reg.png';" />
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sign in <img src="images/dropdown_off.png" class="img-swap"/></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <h4>Your account</h4>
+                            </li>
+                            <li><a href="#">Profile</a>
+                            </li>
+                            <li><a href="#">Order History</a>
+                            </li>
+                            <li><a href="#">Digital Content</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+                                    <button type="button" class="btn btn-default" id="signin-btn">Sign in</button>
+                                </a>
+                            </li>
+                            <li><a href="#">Looking for Microsoft account settings?</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div class="container-fluid" id="carousel-container">
+        <div id="myCarousel" class="carousel slide carousel-fade">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/Srfc3_Snowman_1201_1600x540.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                    <img src="images/GiftCard_BG_1201_1600x540_EN_US.jpg" alt="Second slide">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid" id="ad">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/Xbox_OfferBoxes_1117_420x210_EN_US.jpg" />
+                <br><a href="">Save $50 on Xbox One and get a $50 gift code (ends 1/3).</a>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/OneCnsmr_YogaCompete_1117_420x210_EN_US.jpg" />
+                <br><a href="">Can MacBook Air keep up with Lenovo Yoga 3 Pro? Compare.</a>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Win_HPStream7_1027_420x210_EN_US.jpg">
+                <br><a href="">$99 for an HP 7” tablet with Office 365 Personal.</a>
+            </div>
+        </div>
+        <div class="row hidden-xs">
+            <div class="col-md-3">
+                <h1 id="discover">Discover</h1>
+                <ul class="list-unstyled" id="discover-ul">
+                    <li class="discover-lis"><a href="">Windows</a>
+                    </li>
+                    <li class="discover-lis"><a href="">Office</a>
+                    </li>
+                    <li class="discover-lis"><a href="">Surface</a>
+                    </li>
+                    <li class="discover-lis"><a href="">WIndows Phone</a>
+                    </li>
+                    <li class="discover-lis"><a href="">Mobile Devices</a>
+                    </li>
+                    <li class="discover-lis"><a href="">Xbox</a>
+                    </li>
+                    <li class="discover-lis"><a href="">Skype</a>
+                    </li>
+                    <li class="discover-lis"><a href="">MSN</a>
+                    </li>
+                    <li class="discover-lis"><a href="">Bing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="">
+                            <img src="images/Win_HPStream11_1117_420x210_EN_US.jpg" />
+                            <br>Limited-time offer: $179 for HP Stream 11, 1 year of Office 365.
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="">
+                            <img src="images/Ofc365_Trial_0811_420x210_EN_US.jpg" />
+                            <br>Try Office 365 free for one month.
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="">
+                            <img src="images/MMD_Lumia830Green_1027_420x210_EN_US.jpg" />
+                            <br>Share life as it happens with the Lumia 830.
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3 class="links">Downloads</h3>
+                        <ul class="list-unstyled links-ul">
+                            <li class="links-lis"><a href="">Windows</a>
+                            </li>
+                            <li class="links-lis"><a href="">Office</a>
+                            </li>
+                            <li class="links-lis"><a href="">Internet Explorer</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3 class="links">Security & Updates</h3>
+                        <ul class="list-unstyled links-ul">
+                            <li class="links-lis"><a href="">Windows Update: Service packs & fixes</a>
+                            </li>
+                            <li class="links-lis"><a href="">Microsoft Security Essentials</a>
+                            </li>
+                            <li class="links-lis"><a href="">Microsoft account security info</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3 class="links">Support</h3>
+                        <ul class="list-unstyled links-ul">
+                            <li class="links-lis"><a href="">Windows XP end of support</a>
+                            </li>
+                            <li class="links-lis"><a href="">Windows help & how-to</a>
+                            </li>
+                            <li class="links-lis"><a href="">Office</a>
+                            </li>
+                            <li class="links-lis"><a href="">Find more support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="follow-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9 pull-right" id="news">
+                    <img src="images/Nightwatch_hl.jpg" class="pull-left">
+                    <h4>Open source and the cloud: Changing the lives of people with Type 1 diabetes</h4>
+                    <p>December 18, 2014 - Parents and patients keep a watch over glucose levels via smartphones, computers and the Pebble smartwatch running on Microsoft Azure.</p>
+                </div>
+                <div class="col-md-3 pull-left">
+                    <h1 id="follow-us">Follow Us</h1>
+                    <ul class="list-unstyled" id="follow-ul">
+                        <li class="follow-lis"><a href="">Facebook</a>
+                        </li>
+                        <li class="follow-lis"><a href="">Twitter</a>
+                        </li>
+                        <li class="follow-lis"><a href="">News Center</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
